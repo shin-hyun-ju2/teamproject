@@ -2,7 +2,9 @@ import './App.css';
 import Install from './install';
 import StarRating from './components/StarRating';
 import Cart from './cart/Cart';
+
 import Login from './login/Login';
+
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -21,7 +23,6 @@ function App() {
         }></Route>
         <Route path='/Cart' element={<Cart />} />
         <Route path='/Login' element={<Login />} />
-
       </Routes>
     </div>
   );
