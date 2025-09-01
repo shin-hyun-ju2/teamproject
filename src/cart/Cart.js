@@ -1,7 +1,12 @@
 import React from 'react';
 
 function Cart() {
-  return <h1>장바구니페이지</h1>;
+  return (
+    <>
+      <h1>장바구니페이지</h1>
+      <p>장바구니 기능추가</p>
+    </>
+  );
 }
 
 export default Cart;
